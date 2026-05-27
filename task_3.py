@@ -15,4 +15,6 @@ if country in world_champions.values():
 else:
         print('Италия не выигрывала чемпионат мира по футболу в 21 веке')
 
-print(world_champions)
+
+for year, country in world_champions.items():
+        print(f"{year} - {country}")
