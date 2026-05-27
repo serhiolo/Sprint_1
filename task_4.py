@@ -6,3 +6,5 @@ completed_tasks.append(new_tasks.pop(-1))
 new_tasks.remove('task_007')
 
 new_tasks[0], new_tasks[-1] = new_tasks[-1], new_tasks[0]
+
+print(new_tasks[0])
